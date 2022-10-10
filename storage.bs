@@ -487,7 +487,7 @@ and types are defaulted, except for:
    "<code>persistent-storage</code>" is "{{PermissionState/granted}}", then return.
 
    <li><p>Let <var>shelf</var> be the result of running <a>obtain a local storage shelf</a> with
-   <a>current settings object</a>.
+   <a>current principal settings object</a>.
 
    <li><p>Set <var>shelf</var>'s <a>bucket map</a>["<code>default</code>"]'s
    <a for="local storage bucket">mode</a> to "<code>best-effort</code>".
